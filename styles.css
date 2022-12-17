@@ -1,0 +1,37 @@
+h1 {
+    text-align: center;
+    height: 60px;
+}
+
+main {
+    background-color: antiquewhite;
+    padding-top: 40px;
+}
+
+.formulario {
+    margin-top: 20px;
+    text-align: center;
+    height: 300px;
+}
+
+.cantidad {
+    margin-top: 10px;
+}
+
+#cantidad {
+    background-color: rgb(250, 230, 230) !important;
+    border-radius: 20px;
+}
+
+#convertir {
+    background-color: rgb(110, 110, 206) !important;
+    border-radius: 20px;
+}
+
+#bitcoin, #ethereum, #dai {
+    margin: 10px;
+}
+
+footer {
+    margin-top: -100px;
+}
