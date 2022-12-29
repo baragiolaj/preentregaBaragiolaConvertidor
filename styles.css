@@ -18,6 +18,12 @@ main {
     margin-top: 10px;
 }
 
+#resultado {
+    background-color: rgb(250, 230, 230) !important;
+    border-radius: 20px;
+    margin-top: 1%;
+}
+
 #cantidad {
     background-color: rgb(250, 230, 230) !important;
     border-radius: 20px;
@@ -26,6 +32,7 @@ main {
 #convertir {
     background-color: rgb(110, 110, 206) !important;
     border-radius: 20px;
+    margin-top: 1%;
 }
 
 #bitcoin, #ethereum, #dai {
@@ -33,7 +40,7 @@ main {
 }
 
 footer {
-    margin-top: -100px;
+    margin-top: -75px;
 }
 
 /* login!!! */

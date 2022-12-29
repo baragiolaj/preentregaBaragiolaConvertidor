@@ -6,13 +6,13 @@ function convert () {
     let dai = 172;
     if (document.getElementById("bitcoin").checked){
         result = valor * bitcoin;
-        alert ("La conversión de Bitcoin a pesos es:$" + result)}
+        document.getElementById("resultado").value = result;}
         else if (document.getElementById("ethereum").checked){
             result = valor * ethereum;
-            alert ("La conversión de Ethereum a pesos es:$" + result)}
+            document.getElementById("resultado").value = result;}
         else if (document.getElementById("dai").checked){
             result = valor * dai;
-            alert ("La conversión de Dai a pesos es:$" + result)}
+            document.getElementById("resultado").value = result;}
         else {
             alert("Debes completar todos los requisitos")
         }
