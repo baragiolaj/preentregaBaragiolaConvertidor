@@ -1,0 +1,14 @@
+let stockProductos = [
+    {id: 1, nombre: "Cerveza Quilmes", cantidad: 1, precio: 600, img: './assets/quilmes.png'},
+    {id: 2, nombre: "Cerveza Miller", cantidad: 1, precio: 700, img: './assets/miller.png'},
+    {id: 3, nombre: "Cerveza Heineken", cantidad: 1, precio: 660, img: './assets/heineken.png'},
+    {id: 4, nombre: "Cerveza Brahma", cantidad: 1, precio: 620, img: './assets/brahma.png'},
+    {id: 5, nombre: "Cerveza Corona", cantidad: 1, precio: 680, img: './assets/corona.png'},
+    {id: 6, nombre: "Cerveza Andes", cantidad: 1, precio: 690, img: './assets/andes.png'},
+    {id: 7, nombre: "Latitud 33", cantidad: 1, precio: 2600, img: './assets/latitud.png'},
+    {id: 8, nombre: "Champagne Bianchi", cantidad: 1, precio: 3600, img: './assets/bianchi.png'},
+    {id: 9, nombre: "Angelica Zapata", cantidad: 1, precio: 3200, img: './assets/angelica.png'},
+    {id: 10, nombre: "Champagne AlmaNegra", cantidad: 1, precio: 600, img: './assets/almaM.png'},
+    {id: 11, nombre: "Vino Aime", cantidad: 1, precio: 2400, img: './assets/aimevino.png'},
+    {id: 12, nombre: "Vino AlmaMora", cantidad: 1, precio: 4200, img: './assets/amamora.png'},
+]
