@@ -32,7 +32,10 @@ botonVaciar.addEventListener('click', () => {
       })
 })
 
-stockProductos.forEach((producto) => {
+fetch("stock.json")
+.then(response => response.json())
+.then(data2 => {
+data2.forEach((producto) => {
     const div = document.createElement('div')
     div.classList.add('producto')
     div.innerHTML = `
@@ -62,16 +65,14 @@ stockProductos.forEach((producto) => {
             timer: 600
           })
     })
-    
-})
 
 const agregarAlCarrito = (prodId) => {
 
-    const existe = carrito.some (prod => prod.id === prodId)
+    const existe = carrito.some(prod => prod.id === prodId)
 
-    if (existe){
-        const prod = carrito.map (prod => { 
-            if (prod.id === prodId){
+    if (existe) {
+        const prod = carrito.map(prod => {
+            if (prod.id === prodId) {
                 prod.cantidad++
             }
         })
@@ -115,6 +116,9 @@ const actualizarCarrito = () => {
 
 }
 
+
+})
+})
 
 
 function convert () {
